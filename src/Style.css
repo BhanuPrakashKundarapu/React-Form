@@ -1,0 +1,38 @@
+.frm{
+    background-color: hsl(240, 100%, 50%,0.3);
+    /* width: 80vh; */
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 60vh;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+label{
+    font-size: 20px;
+}
+input{
+    width: 28vw;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 10px;
+
+}
+input[type='submit']{
+    font-size: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+
+}
+input[type='submit']:hover{
+    background-color: #13005A;
+    border: 1px solid gray;
+}
